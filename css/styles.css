@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+body {
+    background-image: url(https://lh5.googleusercontent.com/proxy/mYk0d2R9w-uQFhtqZ4VyDvJtRb9P98LTRObrRQbJimB_xhJefGkdO_VmO1dR-FTCFnoRKOEv9emkdk23BB6FHKfRUOTICCRijojfwC2RppfjYdnhZA=w1200-h630-p-k-no-nu);
+    background-size: auto;
+    color: white;
+
+}
+
+.button004 a {
+    background: #eee;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 260px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+.button004 a:after {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    border-radius: 1px;
+    transition: 0.2s ease-in-out;
+    content: "\f0da";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transform: translateY(-50%);
+}
+.button004 a:hover {
+    background: #313131;
+    color: #FFF;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    font-size: 20px;
+    margin: 5px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header {
+    height: 190px;
+    text-align: center;
+}
+
+.ppp a {
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 220px;
+    padding: 10px 25px;
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    background: rgb(159, 149, 252);
+    background: linear-gradient(270deg, rgba(149,202,252,1) 0%, rgba(107,182,255,1) 100%);
+}
+
+.ppp a:hover {
+    background: rgb(109, 90, 250);
+    background: linear-gradient(270deg, rgba(117,188,255,1) 0%, rgba(62,159,252,1) 100%);
+}
+
+main {
+    height: auto;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    background-color: purple;
+    padding: .75em 1em;
+}
+
+h2 {
+    position: relative;
+    color: #fff;
+    background: #8004edad;
+    box-shadow: 0 1px 3px #777;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+ul {
+    padding: 10px;
+}
+
+p {
+    font-size: 20px;
+    padding-top: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: darkviolet;
+    background-color: black;
+}
+
+.answer {
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 5px;
+    color: red;
+    font-weight: 1000;
+}
+
+h3 {
+    font-size: 20px;
+    color: white;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+}
